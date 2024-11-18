@@ -1,9 +1,9 @@
+import MyFormChallenge from './components/MyFormChallenge'
 import './App.css'
 
 function App() {
   return (
-    <>
-    </>
+    <MyFormChallenge/>
   )
 }
 

@@ -28,7 +28,14 @@
   height: 200px;
   border-width: 1px;
   border-style: solid;
-  color: white;
+  color: black;
+  color: inherit; 
+  transition: background-color 0.3s ease;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Estilos para el input */
@@ -38,13 +45,51 @@ input {
   font-size: 16px;
   border: none;
   border-radius: 5px;
-  background-color: #f5f5f5;
+  background-color: #f5f5f5;;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s, box-shadow 0.3s;
   margin-bottom: 20px;
 }
 
+.red {
+  border-color: red; 
+  color: red;      
+}
+.green {
+  border-color: green;
+  color: green;
+}
+.pink {
+  border-color: pink;
+  color: pink;
+}
+.yellow {
+  border-color: yellow;
+  color: yellow;
+}
+.purple {
+  border-color: purple;
+  color: purple;
+}
+.white {
+  border-color: white;
+  color: white; 
+}
+.blue {
+  border-color: blue;
+  color: blue;
+}
+.aqua {
+  border-color: aqua;
+  color: aqua;
+}
+.olive {
+  border-color: olive;
+  color: olive;
+}
 
-
-
-
+.active {
+  background-color: inherit;
+  font-weight: bold;
+  color: black; 
+}
